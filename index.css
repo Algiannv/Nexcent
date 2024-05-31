@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+picture {
+    display: contents;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+.intro {
+    background-color: #F5F7FA;
+    padding: 161px 144px;
+    position: relative;
+}
+
+.intro-title {
+    color: #4D4D4D;
+    font-size: 64px;
+    font-weight: 600;
+    width: 660px;
+}
+
+.intro-title span {
+    font-size: 64px;
+    font-weight: 600;
+    color: #4CAF4F;
+    width: 660px;
+}
+
+.intro-para {
+    color: #717171;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.intro-pc {
+    position: absolute;
+    right: 144px;
+    top: 96px;
+}
+
+.intro-link {
+    background-color: #4CAF4F;
+    display: block;
+    width: max-content;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.intro-link:hover {
+    color: #FFFFFF;
+}
+
+.intro-circles {
+    position: absolute;
+    bottom: 16px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.intro-circles button {
+    border-radius: 99999999px;
+    background-color: #4CAF4F;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    opacity: 30%;
+}
+
+.intro-circles .active {
+    opacity: 100%;
+}
+
+.clients {
+    margin-top: 40px;
+}
+
+.clients-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.clients-text {
+    font-size: 16px;
+    color: #717171;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.clients-png {
+    gap: 136px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 25px 0px;
+}
