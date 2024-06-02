@@ -63,18 +63,9 @@ body {
 }
 
 .intro-link {
-    background-color: #4CAF4F;
-    display: block;
-    width: max-content;
-    padding: 14px 32px;
-    border-radius: 4px;
-    color: #FFFFFF;
     margin-top: 32px;
 }
 
-.intro-link:hover {
-    color: #FFFFFF;
-}
 
 .intro-circles {
     position: absolute;
@@ -121,4 +112,281 @@ body {
     align-items: center;
     margin-top: 16px;
     padding: 25px 0px;
+}
+
+.system {
+    margin-top: 40px;
+}
+
+.system-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.system-text {
+    color: #717171;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.system-card {
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 20%);
+    width: 299px;
+    border-radius: 8px;
+    padding: 24px 32px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.card-text {
+    color: #717171;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card-icon {
+    display: block;
+    margin: auto;
+}
+
+.system-groups {
+    display: flex;
+    gap: 127.5px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.pixel-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #4D4D4D;  
+}
+
+.pixelgrade {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.pixel-paragraph {
+    color: #717171;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.pixel-info {
+    display:inline-block;
+    width: 661px;
+}
+
+.pixel-link {
+    margin-top: 32px;
+}
+
+.graph-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.graph-title span {
+    color: #4CAF4F;
+}
+
+.graph-info {
+    width: 540px;
+}
+
+.graph {
+    display: flex;
+    justify-content: center;
+    padding: 64px 144px;
+    gap: 72px;
+    background-color: #F5F7FA;
+    margin-top: 48px;
+}
+  
+.section-item {
+    display:flex;
+    gap: 16px;
+    align-items: center;
+    width: 255px;
+}
+
+.section-content h3 {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section-content p {
+    color: #18191F;
+    font-size: 16px;
+}
+
+.graph-sections {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 540px;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.design {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.tesla {
+    display: flex;
+    background-color: #F5F7FA;
+    gap: 78px;
+    padding: 32px 0;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.tesla-paragraph {
+    font-size: 16px;
+    font-weight: 500;
+    color: #717171;
+}
+
+.tesla-content {
+    width: 748px;
+}
+
+.tesla-header {
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 16px;
+    display: block;
+}
+
+.tesla-british {
+    color: #89939E;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.tesla-logos {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+    margin-top: 32px;
+    width: 493px;
+}
+
+.tesla-logos img {
+    width: 48px;
+}
+
+.tesla-link {
+    display: flex;
+    align-items: center;
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 8px;
+    padding: 8px 0;
+    margin-bottom: 4px;
+}
+
+.tesla-brands {
+    display: flex;
+    align-items: end;
+    gap: 24px;
+}
+ 
+
+.market-title {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-top: 48px;
+}
+
+.market-paragraph {
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    width: 628px;
+    color: #717171;
+}
+
+.market-links {
+    background-color: #F5F7FA;
+    box-shadow: 0px 16px 8px 0px rgba(171, 190, 209, 40%);
+    text-align: center;
+    z-index: 5;
+    width: 317px;
+    position: relative;
+    margin: -80px auto 0;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.market-links a {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.market-info {
+    width: 368px;
+}
+
+.market-blogs {
+    justify-content: center;
+    display: flex;
+    margin-top: 16px;
+    gap: 24px;
+}
+
+.market-links p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #717171;
+}
+
+.market-links a {
+    color: #4CAF4F;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 8px;
+}
+
+.demo {
+    margin-top: 96.5px;
+    padding: 32px 0;
+    background-color: #F5F7FA;
+}
+
+.demo-title {
+    color: #263238;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    width: 887px;
+    margin: auto;
+}
+
+.demo-link {
+    margin: 32px auto 0;
 }

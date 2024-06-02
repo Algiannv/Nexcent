@@ -1,0 +1,14 @@
+.primary-button {
+    background-color: #4CAF4F;
+    display: block;
+    width: max-content;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    transition: 0.12s;
+}
+
+.primary-button:hover {
+    color: #FFFFFF;
+    background-color: #3c883e;    
+}
