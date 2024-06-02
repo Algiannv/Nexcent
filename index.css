@@ -81,6 +81,7 @@ body {
     height: 10px;
     border: 0;
     opacity: 30%;
+    cursor: pointer;
 }
 
 .intro-circles .active {
@@ -174,8 +175,9 @@ body {
 
 .pixelgrade {
     display: flex;
-    gap: 49px;
+    justify-content: center;
     align-items: center;
+    gap: 49px;
     margin-top: 42px;
 }
 
@@ -245,6 +247,7 @@ body {
 
 .design {
     display: flex;
+    justify-content: center;
     gap: 48px;
     align-items: center;
     margin-top: 42px;
@@ -328,11 +331,12 @@ body {
     text-align: center;
     width: 628px;
     color: #717171;
+    margin-top: 8px;
 }
 
 .market-links {
     background-color: #F5F7FA;
-    box-shadow: 0px 16px 8px 0px rgba(171, 190, 209, 40%);
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 40%);
     text-align: center;
     z-index: 5;
     width: 317px;
@@ -388,5 +392,8 @@ body {
 }
 
 .demo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin: 32px auto 0;
 }
